@@ -1,0 +1,207 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.left-side{
+    border: 1px solid;
+    box-shadow: -20px 1px 20px #888888;
+    width: 335px;
+    text-align: center;
+    height: 629px;
+}
+
+h1 .title{
+    margin-top: 185px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.sub-title{
+    color: gray;
+    font-size: 19px;
+    margin-top: 12px;
+}
+
+.button{
+    text-decoration: none;
+    color: currentcolor;
+    position: absolute;
+    margin: 34px 6px 14px -25px;
+}
+
+.button:hover{
+    background-color: #888888;
+    width: 140px;
+    height: 32px;
+}
+
+ .camera-image{
+     width: 488px; 
+    /* width: 100%; */
+} 
+.our-work{
+    margin-left: 142px;
+}
+.our-work{
+    font-size: 25px;
+    background-color: black;
+    height: 72px;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    width: 826px;
+    margin-left: 260px;
+}
+
+.card{
+    text-align: center;
+}
+
+.card img{
+    width: 823px;
+    box-shadow: -20px 1px 20px #888888;
+}
+
+.card h3 {
+    background-color: #eeee;
+    border: 1px solid #eeee;
+    padding: 35px;
+    margin-top: -5px;
+    width: 824px;
+    margin-left: 265px;
+    position: relative;
+    box-shadow: -20px 1px 20px #888888;
+}
+
+
+.card p {
+    position: absolute;
+    margin: -33px -3px 7px 320px
+}
+
+/* footer*/
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+.title{
+    margin-bottom: 18px;
+}
+
+
+.footer p {
+    margin-bottom: 25px;
+}
+
+/*media query */
+
+@media (min-width:375px) and (max-width: 425px){
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left-side{
+        margin-right: 2px;
+        height: 200px;
+        width: 428px;
+    }
+    .camera-image{
+        width: 100%;
+    margin: 1px 1px 1px 1px;
+    }
+    .our-work{
+        margin-left: 1px;
+        width: 100%;
+        margin-top: -2px;
+    }
+    
+    .card img {
+        width: 100%;
+    }
+
+    .card h3 {
+        margin-left: 2px;
+    width: 100%;
+    height: 111px;
+    }
+    .card p {
+        position: absolute;
+        margin: -50px -3px 7px 57px;
+        padding-right: 55px;
+        font-size: 15px;
+    }
+}
+
+
+ @media (min-width:768px) and (max-width: 1000px){
+    .hero{
+        display: flex;
+    
+    }
+    .left-side {
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6px;
+        margin-top: -2px;
+        margin-left: 63px;
+        width: 380px;
+        padding: 50px;
+    }
+    .camera-image {
+        width: 477px;
+        margin-left: 0px;
+        height: 605px;
+    }
+    .title {
+        font-size: 50px;
+    }
+    h2.sub-title {
+        font-size: 35px;
+    }
+    .button{
+        margin: 15px 1px 1px -39px;
+    }
+    .our-work{
+        width: 110%;
+        margin-left: 0px;
+        margin-top: -17px;
+    }
+    .card img {
+        width: 110%;
+    }
+
+    .card {
+        margin-left: auto;
+    }
+    .card h3{
+        margin-left: auto;
+        width: 110%;
+        padding: 24px;
+        height: 119px;
+    }
+    .card p {
+        position: absolute;
+        margin: -63px 2px 21px 84px;
+}
+
+}  
+
